@@ -1,0 +1,12 @@
+
+- name: Install list of required packages
+  apt:
+    update_cache: yes
+    name: "{{item}}"
+    state: latest
+  become: yes
+  with_items:
+    - variety
+    
+    
+   

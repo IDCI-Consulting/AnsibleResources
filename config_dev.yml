@@ -1,0 +1,14 @@
+---
+- hosts: idcidev
+  roles:
+    - common
+    - communication
+    - developper
+    - sysadmin 
+    - analyst 
+    - multimedia
+    - text-editor
+    - other 
+    - compression
+   
+
