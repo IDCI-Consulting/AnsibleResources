@@ -1,4 +1,4 @@
-
+---
 - name: Install list of required packages
   apt:
     update_cache: yes
@@ -8,4 +8,3 @@
   with_items:
     - umbrello
     - dia
-    

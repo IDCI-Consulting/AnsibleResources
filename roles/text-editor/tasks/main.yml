@@ -1,9 +1,9 @@
-
+---
 - name: Add atom repository
   become: yes
   apt_repository:
     repo: 'ppa:webupd8team/atom'
-  
+
 - name: Install list of required packages
   apt:
     update_cache: yes
@@ -16,4 +16,3 @@
     - gedit-plugins
     - atom
     - kate
-   

@@ -1,4 +1,4 @@
-
+---
 - name: Workspace folder creation
   file:
     path: $HOME/Workspace

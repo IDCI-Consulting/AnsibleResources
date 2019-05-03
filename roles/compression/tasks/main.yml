@@ -1,4 +1,4 @@
-
+---
 - name: Install list of required packages
   apt:
     update_cache: yes
@@ -16,5 +16,5 @@
     - rar
     - uudeview
     - mpack
-    - arj 
-    - cabextract 
+    - arj
+    - cabextract

@@ -1,4 +1,4 @@
-
+---
 - name: Install list of required packages
   apt:
     update_cache: yes
@@ -7,7 +7,6 @@
   become: yes
   with_items:
     - vlc
-    - gimp 
+    - gimp
     - gpick
     - playonlinux
-    

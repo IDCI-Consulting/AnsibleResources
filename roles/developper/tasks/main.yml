@@ -1,4 +1,4 @@
-
+---
 - name: Install list of required packages
   apt:
     update_cache: yes
@@ -7,6 +7,6 @@
   become: yes
   with_items:
     - git
-    - subversion 
+    - subversion
     - docker.io
     - docker-compose
