@@ -3,23 +3,20 @@
   file:
     path: $HOME/Workspace
     state: directory
-- name: Install list of required packages
+- name: Install list of common packages
   apt:
     update_cache: yes
-    name: "{{item}}"
+    name: "{{ item }}"
     state: latest
   become: yes
   with_items:
     - build-essential
-    - chromium-browser
-    - firefox
     - curl
     - ubuntu-restricted-extras
     - wget
     - htop
     - iotop
     - silversearcher-ag
-    - owncloud-client
     - language-pack-kde-fr
-    - openjdk-9-jre
     - tree
+    - redshift

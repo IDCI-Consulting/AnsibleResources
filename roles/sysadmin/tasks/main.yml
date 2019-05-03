@@ -1,8 +1,8 @@
 ---
-- name: Install list of required packages
+- name: Install list of sysadmin packages
   apt:
     update_cache: yes
-    name: "{{item}}"
+    name: "{{ item }}"
     state: latest
   become: yes
   with_items:
@@ -12,3 +12,4 @@
     - screen
     - tmux
     - netcat
+    - keepassxc

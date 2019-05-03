@@ -1,12 +1,11 @@
 ---
-- name: Install list of multimedia packages
+- name: Install list of developer packages
   apt:
     update_cache: yes
     name: "{{ item }}"
     state: latest
   become: yes
   with_items:
-    - vlc
-    - gimp
-    - gpick
-    - variety
+    - git
+    - umbrello
+    - dia

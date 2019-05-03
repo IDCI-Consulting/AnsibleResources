@@ -4,10 +4,10 @@
   apt_repository:
     repo: 'ppa:webupd8team/atom'
 
-- name: Install list of required packages
+- name: Install list of text editor packages
   apt:
     update_cache: yes
-    name: "{{item}}"
+    name: "{{ item }}"
     state: latest
   become: yes
   with_items:

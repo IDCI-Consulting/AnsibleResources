@@ -3,10 +3,10 @@
   roles:
     - common
     - communication
-    - developper
+    - developer
+    - docker
     - sysadmin
-    - analyst
     - multimedia
+    - game
     - text-editor
-    - other
     - compression
