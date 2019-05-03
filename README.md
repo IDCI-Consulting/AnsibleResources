@@ -14,7 +14,7 @@ The following requirements must be installed into the remote host :
 - [Openssh-server](https://help.ubuntu.com/lts/serverguide/openssh-server.html)
 - [Python](https://wiki.ubuntu.com/Python)
 
-_Note: Use [APT] to install requirements_
+_Note: Use [APT](https://help.ubuntu.com/lts/serverguide/apt.html) to install requirements_
 
 ## Configuration
 
