@@ -1,4 +1,10 @@
 ---
+- name: Ensure Lutris registry is available
+  apt_repository:
+    repo: 'ppa:lutris-team/lutris'
+    state: present
+  become: yes
+
 - name: Install list of game packages
   apt:
     update_cache: yes
