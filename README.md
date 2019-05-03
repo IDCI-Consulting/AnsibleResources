@@ -1,6 +1,6 @@
 # AnsibleResources
 
-This repo is used to install some packages into an remote host.
+This repo is used to install some packages into a remote host.
 
 ## Requirements
 
